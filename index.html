@@ -13,18 +13,18 @@
 <body>
     <!-- Top Banner STARTS-->
     <header class="top-banner">
-        <div>
+        <div class="top-grid">
             <h1 class="top-heading">UEFA<br>EURO 2020</h1>
             <a class="button" target="_blank" href="https://www.uefa.com/uefaeuro-2020/">Watch Live <i class="fas fa-arrow-right"></i> </a>
         </div>
-        <div>
+        <div class="top-grid">
             <img class="top-picture" src="images/players/banner.png" alt="">
         </div>
     </header>
     <!-- Top Banner ENDS-->
     <main>
         <!-- Player Details START -->
-        <section class="player-section">
+        <div class="container">
             <div class="player-grid">
                 <div class="player-info">
                     <img class="player-image" src="images/players/cr7.webp" alt="">
@@ -87,9 +87,43 @@
                     <p>Granit Xhaka, a Swiss professional footballer who was himself a grenade on the match against France in the UEFA EURO 2020.</p>
                 </div>
             </div>
-        </section>
+        </div>
         <!-- Player Details END -->
+
+
+
+        <!-- Subscription Form START -->
+
+        <div>
+                <form action="">
+                    <h2>Get Notified About Our Upcoming Matches And Tournaments</h2>
+                    <p>Name: <input type="text" name="name" id="name" placeholder="Enter your name"></p>
+                    <p>Email: <input type="email" name="email" id="" placeholder="Enter your email"></p>
+                    <p>Favourite European Country<small>(if any)</small>: 
+                        <select name="country" id="country">
+                        <option value="select">Select</option>
+                        <option value="England">England</option>
+                        <option value="Spain">Spain</option>
+                        <option value="Netherlands">Netherlands</option>
+                        <option value="Denmark">Denmark</option>
+                        <option value="Croatia">Croatia</option>
+                        <option value="Germany">Germany</option>
+                        <option value="Portugal">Portugal</option>
+                        <option value="France">France</option>
+                        <option value="Other">Other</option>
+                    </select></p>
+                    <div>
+                        <button class="button" type="submit">Submit</button>
+                        <button class="button" type="reset">Reset</button>
+                    </div>
+                </form>
+
+        </div>
+
+        <!-- Subscription Form END -->
     </main>
+
+    
     <!-- Footer STARTS -->
     <footer>
         <img src="images/backgrounds/euro logo.png" alt="">
@@ -101,7 +135,7 @@
         </div>
         <p>Copyright <i class="far fa-copyright"></i> 2022 UEFA</p>
     </footer>
-        <!-- Footer ENDS -->
+    <!-- Footer ENDS -->
 </body>
 
 </html>
