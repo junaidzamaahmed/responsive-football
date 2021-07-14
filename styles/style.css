@@ -173,5 +173,11 @@ footer img{
     .player-grid{
         grid-template-columns: repeat(2, 1fr);
         justify-items: center;
+    }
+    table{
+        font-size: 1em;
     }   
+    td img{
+        height: 30px;
+    }
 }
