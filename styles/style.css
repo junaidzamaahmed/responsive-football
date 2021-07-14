@@ -73,6 +73,27 @@ height: 438px;
 }
 /* PLAYERS GRID STYLES END */
 
+/* Top Scorer Styles START */
+
+table{
+    width: 95%;
+    text-align: center;
+    font-size: 2em;
+    border-collapse: collapse;
+}
+td{
+    border: 1px solid gray;
+}
+td img{
+    height: 50px;
+    border-radius: 50px;
+}
+caption{
+    font-size: 2em;
+}
+
+/* Top Scorer Styles END */
+
 /* Subscription Form Styles START */
 form{
     display: flex;
@@ -124,6 +145,12 @@ footer img{
         grid-template-columns: repeat(1, 1fr);
         justify-items: center;
     }   
+    table{
+        font-size: 0.6em;
+    }
+    td img{
+        height: 20px;
+    }
 }
 
 /* Tablet Devices */
